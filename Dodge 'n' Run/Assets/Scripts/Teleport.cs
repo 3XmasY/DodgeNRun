@@ -23,5 +23,9 @@ public class Teleport : MonoBehaviour {
             Application.LoadLevel("_Scene7");
         if (Application.loadedLevelName.Equals("_Scene7"))
             Application.LoadLevel("_Scene8");
+        if (Application.loadedLevelName.Equals("_Scene8"))
+            Application.LoadLevel("_Scene9");
+        if (Application.loadedLevelName.Equals("_Scene9"))
+            Application.LoadLevel("_Scene10");
     }
 }
