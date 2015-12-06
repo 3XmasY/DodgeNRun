@@ -12,28 +12,18 @@ Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\M
 Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.104 seconds
+- Completed reload, in  0.375 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: C:\Users\Jordi\Documents\Unity\Dodge 'n' Run\DODGENRUN_Data\Managed\System.dll (this message is harmless)
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1394 -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.478548 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2178.
-Total: 2.066192 ms (FindLiveObjects: 0.284383 ms CreateObjectMapping: 1.411248 ms MarkObjects: 0.356197 ms  DeleteObjects: 0.012721 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.027617 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 0.880234 ms (FindLiveObjects: 0.280690 ms CreateObjectMapping: 0.070993 ms MarkObjects: 0.478486 ms  DeleteObjects: 0.047602 ms)
-
