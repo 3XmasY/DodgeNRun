@@ -1,0 +1,20 @@
+Para implementar BOLA DE PINCHOS:
+- Añadirlo. 
+- Al parámetro "mtrans" arrastrar el jugador (CharacterRobotBoy ENTERO)
+------------------------------------------------------
+Para implementar PINCHOS:
+- Añadirlo. 
+- Al parámetro "mtrans" arrastrar el jugador (CharacterRobotBoy ENTERO)
+------------------------------------------------------
+Para implementar Main Camera:
+- Añadirlo. 
+- Al parámetro "target" arrastrar el jugador (CharacterRobotBoy ENTERO)
+------------------------------------------------------
+Para implementar PERSONAJE:
+- Añadirlo. 
+- Al parámetro "Timer Text" (en el script "Platformer Character 2D"
+  arrastrar el componente "Text" que se encuentra dentro de "Canvas"
+  dentro de "Texto" (el prefab Texto)
+------------------------------------------------------
+Para implementar Texto (contador de tiempo):
+- Añadirlo.

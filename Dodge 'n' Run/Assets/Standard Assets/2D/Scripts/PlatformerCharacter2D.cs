@@ -1,4 +1,5 @@
 using System;
+using UnityEngine.UI;
 using UnityEngine;
 
 namespace UnityStandardAssets._2D
@@ -11,6 +12,8 @@ namespace UnityStandardAssets._2D
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
+        public Text timerText; //Para contar el tiempo que se pasa en el nivel
+        private float contador; //Contador de tiempo
         private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
         const float k_GroundedRadius = .05f; // Radius of the overlap circle to determine if grounded
         private bool m_Grounded;            // Whether or not the player is grounded.
@@ -23,12 +26,19 @@ namespace UnityStandardAssets._2D
         private void Awake()
         {
             // Setting up references.
+            contador = .0f;
+            timerText.text = "Tiempo: " + contador.ToString();
             m_GroundCheck = transform.Find("GroundCheck");
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
         }
 
+        private void Update() //Actualizar contador de tiempo
+        {
+            contador += Time.deltaTime;
+            timerText.text = "Tiempo: " + contador.ToString("F2");
+        }
 
         private void FixedUpdate()
         {
